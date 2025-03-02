@@ -7,7 +7,7 @@ on:
     types: started
   workflow_dispatch:
   schedule:
-    - cron: 30 03 * * *
+    - cron: 30 10 * * *
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
